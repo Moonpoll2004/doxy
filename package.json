@@ -1,0 +1,17 @@
+{
+  "name": "doxy",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "node server.js"
+  },
+  "devDependencies": {
+    "vite": "^2.5.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.3",
+    "bulma": "^0.9.3",
+    "express": "^4.17.1"
+  }
+}

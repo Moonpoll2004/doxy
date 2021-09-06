@@ -1,0 +1,33 @@
+[
+    {
+        "path":"user/login",
+        "method":"GET",
+        "body":{},
+        "cookies":{
+            "SESS":"string"
+        },
+        "query":{},
+        "disc":"login the user"
+    },
+    {
+        "path":"user/login/log",
+        "method":"POST",
+        "body":{
+            "name":"string",
+            "password":"string"
+        },
+        "cookies":{},
+        "query":{},
+        "disc":"when the user credentailes expired then the user should login again vya this endpoint"
+    },
+    {
+        "path":"user/logout",
+        "method":"GET",
+        "body":{},
+        "cookies":{
+            "SESS":"string"
+        },
+        "query":{},
+        "disc":"logout the user by clear the user session"
+    }
+]

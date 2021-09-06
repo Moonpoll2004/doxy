@@ -1,0 +1,18 @@
+[
+    {
+        "topic":"dmg",
+        "cmd":"data",
+        "data":{
+            "key":"string"
+        },
+        "disc":"provide a way to push data to form mqtt gatewayS"
+    },
+    {
+        "topic":"dmg",
+        "cmd":"data",
+        "data":{
+            "key":"string"
+        },
+        "disc":"provide a way to push data to form mqtt gatewayS"
+    }
+]
